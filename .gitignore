@@ -1,0 +1,86 @@
+# ===========================
+# Unreal Engine .gitignore
+# ===========================
+
+# --- Generated / cache folders (rebuilt by the engine) ---
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# --- Content cache / backup files ---
+*.ddc
+*.uasset.bak
+*.umap.bak
+
+# Per-user developer folders (uncomment if each person's test assets shouldn't be shared)
+# /Content/Developers/
+
+# --- Visual Studio / Rider / VS Code ---
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.xcodeproj
+*.xcworkspace
+*.code-workspace
+
+# --- Compiled / build artifacts ---
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lib
+*.a
+*.la
+*.exe
+*.out
+*.app
+*.ipa
+*.pdb
+*.ilk
+*.exp
+*.target
+*.modules
+*.manifest
+*.dSYM/
+
+# --- Packaged builds / cooked data ---
+*.pak
+*.ucas
+*.utoc
+/Packaged/
+/Windows/
+/WindowsNoEditor/
+/Linux/
+/Mac/
+/Android/
+/IOS/
+
+# --- Logs & crash dumps ---
+*.log
+*.dmp
+*.mdmp
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+*.tmp
+*~
